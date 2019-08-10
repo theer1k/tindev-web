@@ -28,7 +28,6 @@ export default function login({ history }) {
                     placeholder="Digite seu usuário no Github"
                     value={username}
                     onChange={e => setUsername(e.target.value)}
-
                 />
                 <button type="submit">Enviar</button>
             </form>
